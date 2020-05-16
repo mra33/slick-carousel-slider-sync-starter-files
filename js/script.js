@@ -4,6 +4,7 @@ $(document).ready(function() {
   slidesToScroll: 1,
   arrows: false,
   fade: true,
+        autoplay: 500,
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({ //-- bottom nav part of gallery --//
